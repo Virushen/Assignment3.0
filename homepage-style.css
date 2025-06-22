@@ -1,0 +1,47 @@
+/* 
+Name: Virushen Tharmarajah
+File: homepage-style.css
+Date: 22 June 2025
+Typography, fonts, and links for homepage layout
+*/
+
+@font-face {
+  font-family: 'CustomBody';
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxM.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'CustomHeading';
+  src: url('https://fonts.gstatic.com/s/lobstertwo/v21/BngMUXZGTXPUvIoyV6yN5-fP5qWr.ttf') format('truetype');
+}
+
+html {
+  font-family: 'CustomBody', sans-serif;
+  font-size: 1.1rem;
+}
+
+body {
+  line-height: 1.6;
+  margin: 40px;
+}
+
+h1, h2 {
+  font-family: 'CustomHeading', cursive;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.intro::first-line {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+  color: #0066cc;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: green;
+  outline: none;
+}
